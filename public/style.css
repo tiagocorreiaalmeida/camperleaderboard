@@ -1,0 +1,55 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  margin: 35px 0;
+  color: #353866;
+}
+
+.title__icon {
+  padding-right: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table__head {
+  background-color: #274c5e;
+  color: #fff;
+}
+
+.table__head__header {
+  padding: 15px 0;
+}
+
+.table__head__header-sort {
+  cursor: pointer;
+}
+
+.table__row {
+  background-color: #e3dede;
+}
+
+.table__row__item {
+  color: #274c5e;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.table__row__item__link {
+  color: inherit;
+  display: inline-block;
+}
+
+.table__row__item__img {
+  max-width: 50px;
+  margin-right: 10px;
+}
